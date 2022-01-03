@@ -10,7 +10,7 @@ int main(){
 printf("El UID real es: %d\n", getuid());
 printf("El UID efectivo es: %d\n", geteuid());
 
-struct passwd *pw;
+struct passwd *pw=getpwuid(getuid());
 
 printf("Nombre de usuario: %d\n",pw->pw_name);
 printf("Directorio home: %d\n",pw->pw_dir);
