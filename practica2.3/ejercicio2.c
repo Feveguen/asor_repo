@@ -16,7 +16,9 @@ return -1;
 
 }
 
-
+printf("El pid es: %d\n", pidactual);
+printf("El pid padre es: %d\n", getppid());
+  
 if(sc==SCHED_FIFO){
 printf("La planificacion es: FIFO\n");
 }
