@@ -29,10 +29,8 @@ char buffer[256];
 int pipe1 = open(tuberia, O_RDONLY | O_NONBLOCK);
 int pipe2 = open(tuberia2, O_RDONLY | O_NONBLOCK);
 
-
+//No se continuar
 
 return 0;
 }
 
-
-//No se continuar
